@@ -12,9 +12,11 @@ vendor/etc/audconf/OPEN/Handset_cal.acdb
 
 # Camera
 vendor/lib/camera/components/com.samsung.node.smooth_transition.so
+vendor/lib64/camera/components/com.samsung.node.smooth_transition.so
 vendor/lib/camera/components/com.samsung.node.uniplugin_recording.so
 vendor/lib/camera/components/com.samsung.node.uniplugin_vdis.so
 vendor/lib/camera/components/com.wrapper.stats.aec.so
+vendor/lib64/camera/components/com.wrapper.stats.aec.so
 vendor/lib/camera/com.qti.eeprom.sec2qcconversion.so
 vendor/lib/camera/com.samsung.sensor.hi847.so
 vendor/lib64/camera/com.samsung.sensor.hi847.so
