@@ -32,6 +32,22 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/configs/audio/mixer_paths.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths.xml
 
+# Camera firmware symlinks
+ PRODUCT_PACKAGES += \
+     com.samsung.sensormodule.0_0_sony_imx682.bin_symlink \
+     com.samsung.sensormodule.0_1_lsi_s5kgw1p_otp.bin_symlink \
+     com.samsung.sensormodule.3_lsi_gc5035.bin_symlink \
+     com.samsung.sensormodule.4_0_lsi_gc5035_macro.bin_symlink \
+     com.samsung.tuned.hynix_hi1336.bin_symlink \
+     com.samsung.tuned.lsi_gc5035.bin_symlink \
+     com.samsung.tuned.lsi_s5k3l6.bin_symlink \
+     com.samsung.tuned.lsi_s5kgw1p.bin_symlink \
+     com.samsung.tuned.sony_imx682.bin_symlink
+ 
+ # Soong namespaces
+ PRODUCT_SOONG_NAMESPACES += \
+     $(DEVICE_PATH)
+
 #UDFPS Customization
 TARGET_HAS_UDFPS := true
 
