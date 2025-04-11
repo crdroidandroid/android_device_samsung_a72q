@@ -34,19 +34,16 @@ PRODUCT_COPY_FILES += \
 
 # Camera firmware symlinks
  PRODUCT_PACKAGES += \
-    com.samsung.sensormodule.0_0_sony_imx682.bin_symlink \
-    com.samsung.sensormodule.0_2_sony_dv_imx682_hw_2.bin_symlink \
-    com.samsung.sensormodule.0_3_lsi_dv_s5kgw1p_hw_2.bin_symlink \
-    com.samsung.sensormodule.0_3_lsi_dv_s5kgw1p_hw_2_otp.bin_symlink \
-    com.samsung.sensormodule.3_0_hynix_hi847.bin_symlink \
-    com.samsung.sensormodule.3_1_hynix_dv_hi847_hw_2.bin_symlink \
-    com.samsung.sensormodule.4_lsi_gc5035_macro.bin_symlink \
-    com.samsung.tuned.hynix_hi1336.bin_symlink \
-    com.samsung.tuned.hynix_hi847.bin_symlink \
-    com.samsung.tuned.lsi_s5k3l6.bin_symlink \
-    com.samsung.tuned.lsi_s5kgw1p.bin_symlink \
-    com.samsung.tuned.sony_imx682.bin_symlink
-
+     com.samsung.sensormodule.0_0_sony_imx682.bin_symlink \
+     com.samsung.sensormodule.0_1_lsi_s5kgw1p_otp.bin_symlink \
+     com.samsung.sensormodule.3_lsi_gc5035.bin_symlink \
+     com.samsung.sensormodule.4_0_lsi_gc5035_macro.bin_symlink \
+     com.samsung.tuned.hynix_hi1336.bin_symlink \
+     com.samsung.tuned.lsi_gc5035.bin_symlink \
+     com.samsung.tuned.lsi_s5k3l6.bin_symlink \
+     com.samsung.tuned.lsi_s5kgw1p.bin_symlink \
+     com.samsung.tuned.sony_imx682.bin_symlink
+ 
  # Soong namespaces
  PRODUCT_SOONG_NAMESPACES += \
      $(DEVICE_PATH)
