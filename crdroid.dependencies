@@ -1,11 +1,11 @@
 [
     {
-        "repository": "android_device_samsung_sm7125-common",
+        "repository": "crdroidandroid/android_device_samsung_sm7125-common",
         "target_path": "device/samsung/sm7125-common"
-    }
+    },
   {
-    "repository": "crdroidandroid/proprietary_vendor_samsung_a52q",
-    "target_path": "vendor/samsung/sm7325-common",
+    "repository": "crdroidandroid/proprietary_vendor_samsung_a72q",
+    "target_path": "vendor/samsung/a72q",
     "branch": "16.0"
-  },
+  }
 ]
