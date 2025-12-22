@@ -19,7 +19,7 @@ DEVICE_PATH := device/samsung/a72q
 include device/samsung/sm7125-common/BoardConfigCommon.mk
 
 # Kernel
-TARGET_KERNEL_CONFIG        := vendor/lineage-a72q_defconfig
+TARGET_KERNEL_CONFIG        := vendor/samsung/sm7125_defconfig vendor/samsung/a52q.config
 BOARD_NAME                  := SRPTJ06B001
 
 # Camera
