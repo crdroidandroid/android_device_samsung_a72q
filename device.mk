@@ -35,8 +35,5 @@ PRODUCT_COPY_FILES += \
 #UDFPS Customization
 TARGET_HAS_UDFPS := true
 
-#Sign it
--include vendor/lineage-priv/keys/keys.mk
-
 # Blur
 TARGET_ENABLE_BLUR := true
