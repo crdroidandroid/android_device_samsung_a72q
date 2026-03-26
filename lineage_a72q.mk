@@ -47,7 +47,7 @@ PRODUCT_SHIPPING_API_LEVEL := 30
 
 # Fingerprint
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildFingerprint="google/komodo_beta/komodo:16/CP11.251209.007.A1/14691868:user/release-keys" \
+    BuildFingerprint="google/shiba_beta/shiba:CANARY/ZP11.260220.007/14993212:user/release-keys" \
     BuildDesc="a72qnsxx-user 11 RP1A.200720.012 A725FXXUAFXL2 release-keys"
 
 # Security patch
