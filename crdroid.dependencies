@@ -1,0 +1,11 @@
+[
+    {
+        "repository": "crdroidandroid/android_device_samsung_sm7125-common",
+        "target_path": "device/samsung/sm7125-common"
+    },
+  {
+    "repository": "TheMuppets/proprietary_vendor_samsung_a72q",
+    "target_path": "vendor/samsung/a72q",
+    "branch": "lineage-23.2"
+  }
+]
