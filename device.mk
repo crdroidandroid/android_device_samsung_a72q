@@ -32,3 +32,6 @@ PRODUCT_COPY_FILES += \
 
 # Camera
 $(call soong_config_set,samsungCameraVars,extra_ids,52) # ID=52 is telephoto
+
+#UDFPS Customization
+TARGET_HAS_UDFPS := true
