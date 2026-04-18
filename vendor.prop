@@ -2,4 +2,4 @@
 bluetooth.device.default_name=Galaxy A72
 
 # Fingerprint
-ro.vendor.fingerprint.sensor_location=540|2145|114
+ro.vendor.fingerprint.sensor_location=540|2145|101
