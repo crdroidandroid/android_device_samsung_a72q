@@ -2769,13 +2769,13 @@
     <path name="rec-main-mic">
         <path name="main-mic" />
         <ctl name="TX_DEC0 Volume" value="93" />
-        <ctl name="ADC1 Volume" value="0" />
+        <ctl name="ADC1 Volume" value="8" />
     </path>
 
     <path name="rec-sub-mic">
         <path name="sub-mic" />
         <ctl name="TX_DEC0 Volume" value="98" />
-        <ctl name="ADC3 Volume" value="0" />
+        <ctl name="ADC3 Volume" value="10" />
     </path>
 
     <path name="rec-headset-mic">
