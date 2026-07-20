@@ -3370,12 +3370,14 @@
     <!-- RX part -->
     <path name="voip-comm-handset">
         <path name="rcv" />
+        <ctl name="RX_RX0 Digital Volume" value="84" />
         <ctl name="TAS256X AMP OUTPUT LVL LEFT" value="1" />
         <ctl name="TAS256X PLAYBACK VOLUME LEFT" value="50" />
     </path>
 
     <path name="voip-comm-handset-hac">
         <path name="rcv" />
+        <ctl name="RX_RX0 Digital Volume" value="84" />
         <ctl name="TAS256X AMP OUTPUT LVL LEFT" value="1" />
         <ctl name="TAS256X PLAYBACK VOLUME LEFT" value="50" />
     </path>
